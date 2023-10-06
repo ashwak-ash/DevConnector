@@ -1,0 +1,7 @@
+{
+    "mongoURI" : "mongodb+srv://ashwak:ashwak123@devconnecter.0vrhtsf.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "(Secret^2)^2"
+    
+} 
+
+ 
