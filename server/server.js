@@ -17,6 +17,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions)); 
 
+app.get("/",(req,res)=>{res.send("Hello")});
 app.use('/api/users', require('./Routes/api/users'));
 app.use('/api/auth', require('./Routes/api/auth'));
 app.use('/api/profile', require('./Routes/api/profile'));
